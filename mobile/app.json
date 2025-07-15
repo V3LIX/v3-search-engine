@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "V3",
+    "slug": "v3-search",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "android": {
+      "package": "com.v3.search",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.ACCESS_NETWORK_STATE"
+      ]
+    },
+    "plugins": ["expo-router"]
+  }
+}
