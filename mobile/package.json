@@ -1,0 +1,11 @@
+{
+  "name": "v3-mobile",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "dependencies": {
+    "expo": "~49.0.0",
+    "expo-router": "^2.0.0",
+    "react": "18.2.0",
+    "react-native": "0.72.0"
+  }
+}
