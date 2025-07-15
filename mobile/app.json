@@ -4,14 +4,13 @@
     "slug": "v3-search",
     "version": "1.0.0",
     "orientation": "portrait",
+    "platforms": ["ios", "android"],
     "android": {
       "package": "com.v3.search",
-      "versionCode": 1,
-      "permissions": [
-        "android.permission.INTERNET",
-        "android.permission.ACCESS_NETWORK_STATE"
-      ]
+      "versionCode": 1
     },
-    "plugins": ["expo-router"]
+    "ios": {
+      "bundleIdentifier": "com.v3.search"
+    }
   }
 }
